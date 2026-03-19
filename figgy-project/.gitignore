@@ -1,0 +1,51 @@
+# Node
+node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnp
+.pnp.js
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.ipynb_checkpoints
+.pytest_cache/
+
+# React-specific (redundant with frontend/.gitignore but good for root fallback)
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# IDEs and OS
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+.Trash/
+
+# Logs and temporary files
+*.log
+*.tmp
+temp/
+tmp/
+
+# Geminis CLI specific
+.gemini/
+
+# AWS CLI specific
+aws/dist/
