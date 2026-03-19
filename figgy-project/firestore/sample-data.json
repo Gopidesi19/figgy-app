@@ -1,0 +1,44 @@
+{
+  "users": {
+    "user123": {
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "address": {
+        "street": "123 Main St",
+        "city": "Anytown",
+        "zip": "12345"
+      }
+    }
+  },
+  "restaurants": {
+    "restaurantA": {
+      "name": "Pizza Palace",
+      "cuisine": "Italian",
+      "menu": [
+        {"item": "Pepperoni Pizza", "price": 15.00},
+        {"item": "Margherita Pizza", "price": 12.00}
+      ]
+    },
+    "restaurantB": {
+      "name": "Burger Joint",
+      "cuisine": "American",
+      "menu": [
+        {"item": "Classic Burger", "price": 10.00},
+        {"item": "Fries", "price": 3.00}
+      ]
+    }
+  },
+  "orders": {
+    "order001": {
+      "userId": "user123",
+      "restaurantId": "restaurantA",
+      "items": [
+        {"item": "Pepperoni Pizza", "quantity": 1, "price": 15.00}
+      ],
+      "total": 15.00,
+      "status": "pending",
+      "createdAt": "2026-03-19T10:00:00Z",
+      "updatedAt": "2026-03-19T10:00:00Z"
+    }
+  }
+}
